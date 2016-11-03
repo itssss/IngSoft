@@ -14,4 +14,8 @@
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
+
+    Private Sub NUEVA_CITA_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        MENU_PRINCIPAL.Show()
+    End Sub
 End Class

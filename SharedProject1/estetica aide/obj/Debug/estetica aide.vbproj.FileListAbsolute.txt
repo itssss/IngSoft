@@ -1,1 +1,23 @@
 C:\Users\user\Source\Repos\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\estetica aide.exe
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\estetica aide.pdb
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\estetica aide.xml
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.vbprojResolveAssemblyReference.cache
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_CLIENTE.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_INVENTARIO.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.AGENDAR_CITA.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.GENERAR_REPORTE.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.INGRESAR_SISTEMA.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.MENU_PRINCIPAL.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.Resources.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.NUEVA_CITA.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.REAGENDAR_CITA.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_GASTOS.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_VENTA.resources
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.vbproj.GenerateResource.Cache
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\MySql.Data.dll
+C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\MySql.Data.xml

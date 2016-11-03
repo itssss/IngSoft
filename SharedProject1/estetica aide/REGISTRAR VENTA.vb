@@ -26,4 +26,8 @@
     Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
 
     End Sub
+
+    Private Sub REGISTRAR_VENTA_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        MENU_PRINCIPAL.Show()
+    End Sub
 End Class
