@@ -91,6 +91,7 @@
     <Compile Include="AGENDAR CITA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Clases\ClaseCita.vb" />
     <Compile Include="Clases\ClaseCliente.vb" />
     <Compile Include="Clases\ClaseEmpleado.vb" />
     <Compile Include="Clases\ClasePrincipal.vb" />

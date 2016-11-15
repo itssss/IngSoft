@@ -26,92 +26,89 @@ Partial Class GENERAR_REPORTE
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ComboSel = New System.Windows.Forms.ComboBox()
+        Me.pdf = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(99, 26)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(132, 32)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(265, 22)
         Me.DateTimePicker1.TabIndex = 0
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(99, 78)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(132, 96)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(265, 22)
         Me.DateTimePicker2.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 26)
+        Me.Label1.Location = New System.Drawing.Point(16, 32)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 13)
+        Me.Label1.Size = New System.Drawing.Size(96, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "FECHA INICIO"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 78)
+        Me.Label2.Location = New System.Drawing.Point(16, 96)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 13)
+        Me.Label2.Size = New System.Drawing.Size(95, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "FECHA FINAL"
         '
-        'ComboBox1
+        'ComboSel
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(405, 36)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(126, 21)
-        Me.ComboBox1.TabIndex = 4
+        Me.ComboSel.FormattingEnabled = True
+        Me.ComboSel.Location = New System.Drawing.Point(540, 44)
+        Me.ComboSel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ComboSel.Name = "ComboSel"
+        Me.ComboSel.Size = New System.Drawing.Size(167, 24)
+        Me.ComboSel.TabIndex = 4
         '
-        'Label3
+        'pdf
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(413, 39)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(82, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "INFORMACION"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(433, 289)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(98, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "GUARDAR PDF"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.pdf.Location = New System.Drawing.Point(577, 356)
+        Me.pdf.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.pdf.Name = "pdf"
+        Me.pdf.Size = New System.Drawing.Size(131, 28)
+        Me.pdf.TabIndex = 6
+        Me.pdf.Text = "GUARDAR PDF"
+        Me.pdf.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(33, 119)
+        Me.DataGridView1.Location = New System.Drawing.Point(44, 146)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(484, 153)
+        Me.DataGridView1.Size = New System.Drawing.Size(645, 188)
         Me.DataGridView1.TabIndex = 7
         '
         'GENERAR_REPORTE
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(551, 324)
+        Me.ClientSize = New System.Drawing.Size(735, 399)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.pdf)
+        Me.Controls.Add(Me.ComboSel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "GENERAR_REPORTE"
         Me.Text = "GENERAR_REPORTE"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -124,8 +121,7 @@ Partial Class GENERAR_REPORTE
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ComboSel As ComboBox
+    Friend WithEvents pdf As Button
     Friend WithEvents DataGridView1 As DataGridView
 End Class
