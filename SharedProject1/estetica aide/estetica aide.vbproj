@@ -47,6 +47,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -91,12 +92,23 @@
     <Compile Include="AGENDAR CITA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Clases\ClaseCita.vb" />
     <Compile Include="Clases\ClaseCliente.vb" />
     <Compile Include="Clases\ClaseEmpleado.vb" />
     <Compile Include="Clases\ClasePrincipal.vb" />
     <Compile Include="Clases\Conexion.vb" />
     <Compile Include="Clases\Globales.vb" />
+    <Compile Include="Corte de caja.Designer.vb">
+      <DependentUpon>Corte de caja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Corte de caja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detallado.Designer.vb">
+      <DependentUpon>Detallado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Detallado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GENERAR REPORTE.Designer.vb">
       <DependentUpon>GENERAR REPORTE.vb</DependentUpon>
     </Compile>
@@ -154,6 +166,24 @@
     <Compile Include="REGISTRAR VENTA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="REGISTRAR_INVENTARIO.Designer.vb">
+      <DependentUpon>REGISTRAR_INVENTARIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRAR_INVENTARIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resumido.Designer.vb">
+      <DependentUpon>Resumido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resumido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solicitar Pedido.Designer.vb">
+      <DependentUpon>Solicitar Pedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitar Pedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ACTUALIZAR CLIENTE.resx">
@@ -164,6 +194,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AGENDAR CITA.resx">
       <DependentUpon>AGENDAR CITA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corte de caja.resx">
+      <DependentUpon>Corte de caja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Detallado.resx">
+      <DependentUpon>Detallado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GENERAR REPORTE.resx">
       <DependentUpon>GENERAR REPORTE.vb</DependentUpon>
@@ -191,6 +227,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="REGISTRAR VENTA.resx">
       <DependentUpon>REGISTRAR VENTA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REGISTRAR_INVENTARIO.resx">
+      <DependentUpon>REGISTRAR_INVENTARIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resumido.resx">
+      <DependentUpon>Resumido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solicitar Pedido.resx">
+      <DependentUpon>Solicitar Pedido.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

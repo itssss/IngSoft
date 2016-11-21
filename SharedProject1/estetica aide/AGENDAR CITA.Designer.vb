@@ -37,10 +37,9 @@ Partial Class AGENDAR_CITA
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.CLIENTE, Me.NOMBRE, Me.FECHA, Me.TRATAMIENTO, Me.RESTRICCIONES})
-        Me.DataGridView1.Location = New System.Drawing.Point(32, 48)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DataGridView1.Location = New System.Drawing.Point(24, 39)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(723, 103)
+        Me.DataGridView1.Size = New System.Drawing.Size(542, 84)
         Me.DataGridView1.TabIndex = 0
         '
         'CLIENTE
@@ -70,33 +69,30 @@ Partial Class AGENDAR_CITA
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(460, 256)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(345, 208)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(147, 28)
+        Me.Button1.Size = New System.Drawing.Size(110, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "NUEVA CITA"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(655, 256)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Location = New System.Drawing.Point(491, 208)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 28)
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "ELIMINAR"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'AGENDAR_CITA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(939, 321)
+        Me.ClientSize = New System.Drawing.Size(704, 261)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "AGENDAR_CITA"
         Me.Text = "AGENDAR_CITA"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()

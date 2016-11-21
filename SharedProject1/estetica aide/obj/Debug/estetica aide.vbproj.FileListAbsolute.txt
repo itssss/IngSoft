@@ -21,25 +21,35 @@ C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\e
 C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
 C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\MySql.Data.dll
 C:\Users\Fernando\Source\Repos\IngSoft2\SharedProject1\estetica aide\bin\Debug\MySql.Data.xml
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.exe
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.pdb
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.xml
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\MySql.Data.dll
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\bin\Debug\MySql.Data.xml
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.vbprojResolveAssemblyReference.cache
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_CLIENTE.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_INVENTARIO.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.AGENDAR_CITA.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.GENERAR_REPORTE.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.INGRESAR_SISTEMA.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.MENU_PRINCIPAL.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.Resources.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.NUEVA_CITA.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REAGENDAR_CITA.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_GASTOS.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_VENTA.resources
-C:\Users\Fernando\Source\ReposI\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.vbproj.GenerateResource.Cache
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\estetica aide.exe
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\estetica aide.pdb
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\estetica aide.xml
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\MySql.Data.xml
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.vbprojResolveAssemblyReference.cache
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_CLIENTE.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_INVENTARIO.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.AGENDAR_CITA.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.GENERAR_REPORTE.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.INGRESAR_SISTEMA.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.MENU_PRINCIPAL.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.Resources.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.NUEVA_CITA.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.REAGENDAR_CITA.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_GASTOS.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_VENTA.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.vbproj.GenerateResource.Cache
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_INVENTARIO.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.Solicitar_Pedido.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.Corte_de_caja.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.Detallado.resources
+C:\Users\Jose\Desktop\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica_aide.Resumido.resources
+G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
+G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
+G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
+G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb

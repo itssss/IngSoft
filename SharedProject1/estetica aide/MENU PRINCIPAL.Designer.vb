@@ -33,14 +33,19 @@ Partial Class MENU_PRINCIPAL
         '
         'CLIENTES
         '
+        Me.CLIENTES.BackColor = System.Drawing.Color.Turquoise
         Me.CLIENTES.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.CLIENTES.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CLIENTES.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CLIENTES.Font = New System.Drawing.Font("Bell MT", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CLIENTES.ForeColor = System.Drawing.Color.Maroon
         Me.CLIENTES.Location = New System.Drawing.Point(32, 34)
         Me.CLIENTES.Margin = New System.Windows.Forms.Padding(4)
         Me.CLIENTES.Name = "CLIENTES"
         Me.CLIENTES.Size = New System.Drawing.Size(180, 74)
         Me.CLIENTES.TabIndex = 0
         Me.CLIENTES.Text = "ACTUALIZAR   CLIENTES"
-        Me.CLIENTES.UseVisualStyleBackColor = True
+        Me.CLIENTES.UseVisualStyleBackColor = False
         '
         'VENTAS
         '
@@ -115,7 +120,8 @@ Partial Class MENU_PRINCIPAL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(723, 321)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.ClientSize = New System.Drawing.Size(727, 324)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
