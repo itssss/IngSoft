@@ -22,64 +22,78 @@ Partial Class REGISTRAR_GASTOS
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.desc = New System.Windows.Forms.TextBox()
-        Me.monto = New System.Windows.Forms.TextBox()
-        Me.Btnacep = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'desc
+        'TextBox1
         '
-        Me.desc.Location = New System.Drawing.Point(134, 53)
-        Me.desc.Name = "desc"
-        Me.desc.Size = New System.Drawing.Size(269, 20)
-        Me.desc.TabIndex = 0
+        Me.TextBox1.Location = New System.Drawing.Point(179, 65)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(357, 22)
+        Me.TextBox1.TabIndex = 0
         '
-        'monto
+        'TextBox2
         '
-        Me.monto.Location = New System.Drawing.Point(134, 96)
-        Me.monto.Name = "monto"
-        Me.monto.Size = New System.Drawing.Size(86, 20)
-        Me.monto.TabIndex = 1
+        Me.TextBox2.Location = New System.Drawing.Point(179, 118)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(113, 22)
+        Me.TextBox2.TabIndex = 1
         '
-        'Btnacep
+        'Button1
         '
-        Me.Btnacep.Location = New System.Drawing.Point(279, 140)
-        Me.Btnacep.Name = "Btnacep"
-        Me.Btnacep.Size = New System.Drawing.Size(75, 23)
-        Me.Btnacep.TabIndex = 2
-        Me.Btnacep.Text = "ACEPTAR"
-        Me.Btnacep.UseVisualStyleBackColor = True
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(372, 172)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "ACEPTAR"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 56)
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(16, 69)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(80, 13)
+        Me.Label1.Size = New System.Drawing.Size(111, 19)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "DESCRIPCION"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 99)
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(16, 122)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 13)
+        Me.Label2.Size = New System.Drawing.Size(163, 19)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "MONTO                      $"
         '
         'REGISTRAR_GASTOS
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(410, 196)
+        Me.BackgroundImage = Global.estetica_aide.My.Resources.Resources._15139308_1298582353495753_749350956_n
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(547, 241)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Btnacep)
-        Me.Controls.Add(Me.monto)
-        Me.Controls.Add(Me.desc)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "REGISTRAR_GASTOS"
@@ -89,9 +103,9 @@ Partial Class REGISTRAR_GASTOS
 
     End Sub
 
-    Friend WithEvents desc As TextBox
-    Friend WithEvents monto As TextBox
-    Friend WithEvents Btnacep As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button1 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
 End Class

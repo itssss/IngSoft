@@ -54,23 +54,25 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Combo.FormattingEnabled = True
         Me.Combo.Items.AddRange(New Object() {"INGRESAR", "MODIFICAR"})
         Me.Combo.Location = New System.Drawing.Point(599, 16)
-        Me.Combo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Combo.Margin = New System.Windows.Forms.Padding(4)
         Me.Combo.Name = "Combo"
         Me.Combo.Size = New System.Drawing.Size(243, 24)
         Me.Combo.TabIndex = 0
         '
         'BoxBuscar
         '
+        Me.BoxBuscar.BackColor = System.Drawing.Color.Transparent
         Me.BoxBuscar.Controls.Add(Me.BUSCAR)
         Me.BoxBuscar.Controls.Add(Me.Label3)
         Me.BoxBuscar.Controls.Add(Me.Txtclave)
         Me.BoxBuscar.Controls.Add(Me.TxtNombre)
         Me.BoxBuscar.Controls.Add(Me.Label2)
         Me.BoxBuscar.Enabled = False
+        Me.BoxBuscar.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BoxBuscar.Location = New System.Drawing.Point(22, 48)
-        Me.BoxBuscar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BoxBuscar.Margin = New System.Windows.Forms.Padding(4)
         Me.BoxBuscar.Name = "BoxBuscar"
-        Me.BoxBuscar.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BoxBuscar.Padding = New System.Windows.Forms.Padding(4)
         Me.BoxBuscar.Size = New System.Drawing.Size(824, 83)
         Me.BoxBuscar.TabIndex = 2
         Me.BoxBuscar.TabStop = False
@@ -81,7 +83,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.BUSCAR.BackgroundImage = CType(resources.GetObject("BUSCAR.BackgroundImage"), System.Drawing.Image)
         Me.BUSCAR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BUSCAR.Location = New System.Drawing.Point(758, 23)
-        Me.BUSCAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BUSCAR.Margin = New System.Windows.Forms.Padding(4)
         Me.BUSCAR.Name = "BUSCAR"
         Me.BUSCAR.Size = New System.Drawing.Size(56, 47)
         Me.BUSCAR.TabIndex = 4
@@ -93,46 +95,49 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label3.Location = New System.Drawing.Point(567, 37)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 17)
+        Me.Label3.Size = New System.Drawing.Size(56, 19)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "CLAVE"
         '
         'Txtclave
         '
         Me.Txtclave.Location = New System.Drawing.Point(629, 33)
-        Me.Txtclave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Txtclave.Margin = New System.Windows.Forms.Padding(4)
         Me.Txtclave.Name = "Txtclave"
-        Me.Txtclave.Size = New System.Drawing.Size(109, 22)
+        Me.Txtclave.Size = New System.Drawing.Size(109, 25)
         Me.Txtclave.TabIndex = 2
         '
         'TxtNombre
         '
         Me.TxtNombre.Location = New System.Drawing.Point(92, 33)
-        Me.TxtNombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtNombre.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtNombre.Name = "TxtNombre"
-        Me.TxtNombre.Size = New System.Drawing.Size(437, 22)
+        Me.TxtNombre.Size = New System.Drawing.Size(437, 25)
         Me.TxtNombre.TabIndex = 1
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(8, 37)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 17)
+        Me.Label2.Size = New System.Drawing.Size(78, 19)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "NOMBRE "
         '
         'CheckTerm
         '
         Me.CheckTerm.AutoSize = True
+        Me.CheckTerm.BackColor = System.Drawing.Color.Transparent
+        Me.CheckTerm.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckTerm.Location = New System.Drawing.Point(22, 392)
-        Me.CheckTerm.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckTerm.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckTerm.Name = "CheckTerm"
-        Me.CheckTerm.Size = New System.Drawing.Size(273, 21)
+        Me.CheckTerm.Size = New System.Drawing.Size(297, 23)
         Me.CheckTerm.TabIndex = 3
         Me.CheckTerm.Text = "ACEPTO TERMINOS Y CONDICIONES"
-        Me.CheckTerm.UseVisualStyleBackColor = True
+        Me.CheckTerm.UseVisualStyleBackColor = False
         Me.CheckTerm.Visible = False
         '
         'Label4
@@ -141,7 +146,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label4.Location = New System.Drawing.Point(20, 33)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 17)
+        Me.Label4.Size = New System.Drawing.Size(74, 19)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "NOMBRE"
         '
@@ -151,7 +156,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label5.Location = New System.Drawing.Point(20, 71)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(83, 17)
+        Me.Label5.Size = New System.Drawing.Size(86, 19)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "TELEFONO"
         '
@@ -161,7 +166,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label6.Location = New System.Drawing.Point(20, 114)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(82, 17)
+        Me.Label6.Size = New System.Drawing.Size(93, 19)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "DIRECCION"
         '
@@ -171,7 +176,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label7.Location = New System.Drawing.Point(20, 154)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(68, 17)
+        Me.Label7.Size = New System.Drawing.Size(71, 19)
         Me.Label7.TabIndex = 7
         Me.Label7.Text = "CORREO"
         '
@@ -181,72 +186,77 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Label8.Location = New System.Drawing.Point(20, 194)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(100, 17)
+        Me.Label8.Size = New System.Drawing.Size(111, 19)
         Me.Label8.TabIndex = 8
         Me.Label8.Text = "DESCRIPCION"
         '
         'TxtNombre1
         '
         Me.TxtNombre1.Location = New System.Drawing.Point(134, 29)
-        Me.TxtNombre1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtNombre1.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtNombre1.Name = "TxtNombre1"
-        Me.TxtNombre1.Size = New System.Drawing.Size(686, 22)
+        Me.TxtNombre1.Size = New System.Drawing.Size(686, 25)
         Me.TxtNombre1.TabIndex = 9
         '
         'TxtTel
         '
         Me.TxtTel.Location = New System.Drawing.Point(134, 68)
-        Me.TxtTel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtTel.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtTel.Name = "TxtTel"
-        Me.TxtTel.Size = New System.Drawing.Size(328, 22)
+        Me.TxtTel.Size = New System.Drawing.Size(328, 25)
         Me.TxtTel.TabIndex = 10
         '
         'TxtDir
         '
         Me.TxtDir.Location = New System.Drawing.Point(134, 106)
-        Me.TxtDir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtDir.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtDir.Name = "TxtDir"
-        Me.TxtDir.Size = New System.Drawing.Size(685, 22)
+        Me.TxtDir.Size = New System.Drawing.Size(685, 25)
         Me.TxtDir.TabIndex = 11
         '
         'TxtCorreo
         '
         Me.TxtCorreo.Location = New System.Drawing.Point(134, 154)
-        Me.TxtCorreo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtCorreo.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtCorreo.Name = "TxtCorreo"
-        Me.TxtCorreo.Size = New System.Drawing.Size(328, 22)
+        Me.TxtCorreo.Size = New System.Drawing.Size(328, 25)
         Me.TxtCorreo.TabIndex = 12
         '
         'TxtDesc
         '
         Me.TxtDesc.Location = New System.Drawing.Point(134, 191)
-        Me.TxtDesc.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TxtDesc.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtDesc.Name = "TxtDesc"
-        Me.TxtDesc.Size = New System.Drawing.Size(686, 22)
+        Me.TxtDesc.Size = New System.Drawing.Size(686, 25)
         Me.TxtDesc.TabIndex = 13
         '
         'GUARDAR
         '
+        Me.GUARDAR.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.GUARDAR.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GUARDAR.Location = New System.Drawing.Point(613, 385)
-        Me.GUARDAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GUARDAR.Margin = New System.Windows.Forms.Padding(4)
         Me.GUARDAR.Name = "GUARDAR"
         Me.GUARDAR.Size = New System.Drawing.Size(100, 28)
         Me.GUARDAR.TabIndex = 14
         Me.GUARDAR.Text = "GUARDAR"
-        Me.GUARDAR.UseVisualStyleBackColor = True
+        Me.GUARDAR.UseVisualStyleBackColor = False
         '
         'ELIMINAR
         '
+        Me.ELIMINAR.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.ELIMINAR.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ELIMINAR.Location = New System.Drawing.Point(748, 385)
-        Me.ELIMINAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ELIMINAR.Margin = New System.Windows.Forms.Padding(4)
         Me.ELIMINAR.Name = "ELIMINAR"
         Me.ELIMINAR.Size = New System.Drawing.Size(100, 28)
         Me.ELIMINAR.TabIndex = 15
         Me.ELIMINAR.Text = "ELIMINAR"
-        Me.ELIMINAR.UseVisualStyleBackColor = True
+        Me.ELIMINAR.UseVisualStyleBackColor = False
         '
         'BoxDatos
         '
+        Me.BoxDatos.BackColor = System.Drawing.Color.Transparent
         Me.BoxDatos.Controls.Add(Me.Label4)
         Me.BoxDatos.Controls.Add(Me.Label5)
         Me.BoxDatos.Controls.Add(Me.Label6)
@@ -258,6 +268,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.BoxDatos.Controls.Add(Me.TxtNombre1)
         Me.BoxDatos.Controls.Add(Me.TxtTel)
         Me.BoxDatos.Enabled = False
+        Me.BoxDatos.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BoxDatos.Location = New System.Drawing.Point(22, 149)
         Me.BoxDatos.Name = "BoxDatos"
         Me.BoxDatos.Size = New System.Drawing.Size(824, 223)
@@ -269,6 +280,8 @@ Partial Class ACTUALIZAR_CLIENTE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(867, 438)
         Me.Controls.Add(Me.BoxDatos)
         Me.Controls.Add(Me.ELIMINAR)
@@ -276,7 +289,7 @@ Partial Class ACTUALIZAR_CLIENTE
         Me.Controls.Add(Me.CheckTerm)
         Me.Controls.Add(Me.BoxBuscar)
         Me.Controls.Add(Me.Combo)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ACTUALIZAR_CLIENTE"
         Me.Text = "ACTUALIZAR CLIENTE"
         Me.BoxBuscar.ResumeLayout(False)

@@ -97,6 +97,7 @@
     <Compile Include="Clases\ClasePrincipal.vb" />
     <Compile Include="Clases\Conexion.vb" />
     <Compile Include="Clases\Globales.vb" />
+    <Compile Include="Clases\Producto.vb" />
     <Compile Include="Corte de caja.Designer.vb">
       <DependentUpon>Corte de caja.vb</DependentUpon>
     </Compile>
@@ -249,6 +250,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15139308_1298582353495753_749350956_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

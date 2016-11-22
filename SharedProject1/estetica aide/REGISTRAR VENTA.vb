@@ -1,76 +1,33 @@
 ﻿Public Class REGISTRAR_VENTA
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
 
-    Dim productoprinci As Object
-    Dim lupita As Boolean
+    End Sub
+
+    Private Sub SERVICIO_Click(sender As Object, e As EventArgs) Handles SERVICIO.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub REGISTRAR_VENTA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles Label5.Click
+
+    End Sub
 
     Private Sub REGISTRAR_VENTA_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         MENU_PRINCIPAL.Show()
     End Sub
-
-
-    Private Sub ComboBoxRegistrarVentas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBoxRegistrarVentas.SelectedIndexChanged
-        If ComboBoxRegistrarVentas.Text = "Servicio cita" Then
-            Descripcion1.Enabled = True
-            MontoRegistrarVentas.Enabled = True
-            Descripcion2.Enabled = True
-            CantidadRegistrarVenta.Enabled = True
-
-
-        ElseIf ComboBoxRegistrarVentas.Text = "Venta de productos" Then
-            Descripcion1.Enabled = True
-            MontoRegistrarVentas.Enabled = True
-            Descripcion2.Enabled = True
-            CantidadRegistrarVenta.Enabled = True
-
-
-        ElseIf ComboBoxRegistrarVentas.Text = "Servicio express" Then
-            Descripcion1.Enabled = True
-            MontoRegistrarVentas.Enabled = True
-            Descripcion2.Enabled = False
-            CantidadRegistrarVenta.Enabled = False
-            DataGirdRegistrarVenta.Visible = False
-            BotonAñadir.Enabled = False
-
-        End If
-
-    End Sub
-
-    Private Sub LupitaRegistrarVenta_Click(sender As Object, e As EventArgs) Handles LupitaRegistrarVenta.Click
-
-
-        Dim productoClase As New Producto(Descripcion2.Text)
-        productoClase.getId(productos)
-
-        If productoClase.consultaUno(productos) Then
-
-            productoprinci = productoClase.DatosProductos(productoprinci)
-            MsgBox(" Producto encontrado  :) ")
-            lupita = True
-
-        Else
-            lupita = False
-
-
-        End If
-
-
-
-
-    End Sub
-
-    Private Sub BotonAñadir_Click(sender As Object, e As EventArgs) Handles BotonAñadir.Click
-
-
-        Dim productodeaqui As New Producto(CStr(productoprinci.item(1)))
-
-        If (lupita) Then
-
-            productodeaqui.PoblarDataGrid(DataGirdRegistrarVenta)
-
-        End If
-
-    End Sub
-
-
-
 End Class

@@ -22,144 +22,136 @@ Partial Class REAGENDAR_CITA
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(REAGENDAR_CITA))
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.FechaN = New System.Windows.Forms.DateTimePicker()
-        Me.btnAceptar = New System.Windows.Forms.Button()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.ACEPTAR = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.BUSCAR = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Fecha = New System.Windows.Forms.DateTimePicker()
-        Me.TxtClave = New System.Windows.Forms.TextBox()
-        Me.TxtNombre = New System.Windows.Forms.TextBox()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.ComboSel = New System.Windows.Forms.ComboBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(16, 162)
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(178, 268)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(82, 13)
+        Me.Label3.Size = New System.Drawing.Size(114, 19)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "NUEVA FECHA"
         '
-        'FechaN
+        'DateTimePicker1
         '
-        Me.FechaN.Enabled = False
-        Me.FechaN.Location = New System.Drawing.Point(150, 155)
-        Me.FechaN.Name = "FechaN"
-        Me.FechaN.Size = New System.Drawing.Size(200, 20)
-        Me.FechaN.TabIndex = 6
+        Me.DateTimePicker1.Location = New System.Drawing.Point(312, 268)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(265, 22)
+        Me.DateTimePicker1.TabIndex = 6
         '
-        'btnAceptar
+        'ACEPTAR
         '
-        Me.btnAceptar.Enabled = False
-        Me.btnAceptar.Location = New System.Drawing.Point(391, 209)
-        Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(83, 21)
-        Me.btnAceptar.TabIndex = 5
-        Me.btnAceptar.Text = "ACEPTAR"
-        Me.btnAceptar.UseVisualStyleBackColor = True
+        Me.ACEPTAR.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.ACEPTAR.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ACEPTAR.Location = New System.Drawing.Point(633, 334)
+        Me.ACEPTAR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ACEPTAR.Name = "ACEPTAR"
+        Me.ACEPTAR.Size = New System.Drawing.Size(111, 26)
+        Me.ACEPTAR.TabIndex = 5
+        Me.ACEPTAR.Text = "ACEPTAR"
+        Me.ACEPTAR.UseVisualStyleBackColor = False
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.BUSCAR)
+        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.Fecha)
-        Me.GroupBox1.Controls.Add(Me.TxtClave)
-        Me.GroupBox1.Controls.Add(Me.TxtNombre)
+        Me.GroupBox1.Controls.Add(Me.DateTimePicker2)
+        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(10, 11)
+        Me.GroupBox1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(125, 90)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(464, 119)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(619, 146)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "DATOS DEL CLIENTE"
         '
-        'BUSCAR
-        '
-        Me.BUSCAR.BackgroundImage = CType(resources.GetObject("BUSCAR.BackgroundImage"), System.Drawing.Image)
-        Me.BUSCAR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BUSCAR.Location = New System.Drawing.Point(396, 63)
-        Me.BUSCAR.Name = "BUSCAR"
-        Me.BUSCAR.Size = New System.Drawing.Size(42, 38)
-        Me.BUSCAR.TabIndex = 6
-        Me.BUSCAR.UseVisualStyleBackColor = True
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 84)
+        Me.Label4.Location = New System.Drawing.Point(8, 103)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(42, 13)
+        Me.Label4.Size = New System.Drawing.Size(58, 19)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "FECHA"
         '
-        'Fecha
+        'DateTimePicker2
         '
-        Me.Fecha.Enabled = False
-        Me.Fecha.Location = New System.Drawing.Point(64, 84)
-        Me.Fecha.Name = "Fecha"
-        Me.Fecha.Size = New System.Drawing.Size(200, 20)
-        Me.Fecha.TabIndex = 4
+        Me.DateTimePicker2.Location = New System.Drawing.Point(85, 103)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(265, 25)
+        Me.DateTimePicker2.TabIndex = 4
         '
-        'TxtClave
+        'TextBox2
         '
-        Me.TxtClave.Location = New System.Drawing.Point(356, 37)
-        Me.TxtClave.Name = "TxtClave"
-        Me.TxtClave.Size = New System.Drawing.Size(83, 20)
-        Me.TxtClave.TabIndex = 3
+        Me.TextBox2.Location = New System.Drawing.Point(477, 39)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(109, 25)
+        Me.TextBox2.TabIndex = 3
         '
-        'TxtNombre
+        'TextBox1
         '
-        Me.TxtNombre.Location = New System.Drawing.Point(64, 36)
-        Me.TxtNombre.Name = "TxtNombre"
-        Me.TxtNombre.Size = New System.Drawing.Size(232, 20)
-        Me.TxtNombre.TabIndex = 2
+        Me.TextBox1.Location = New System.Drawing.Point(85, 44)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(308, 25)
+        Me.TextBox1.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(311, 39)
+        Me.Label2.Location = New System.Drawing.Point(415, 48)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(41, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 19)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "CLAVE"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 39)
+        Me.Label1.Location = New System.Drawing.Point(8, 48)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 13)
+        Me.Label1.Size = New System.Drawing.Size(69, 19)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "CLIENTE"
         '
-        'ComboSel
-        '
-        Me.ComboSel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboSel.FormattingEnabled = True
-        Me.ComboSel.Items.AddRange(New Object() {"8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00"})
-        Me.ComboSel.Location = New System.Drawing.Point(366, 154)
-        Me.ComboSel.Name = "ComboSel"
-        Me.ComboSel.Size = New System.Drawing.Size(64, 21)
-        Me.ComboSel.TabIndex = 8
-        '
         'REAGENDAR_CITA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(482, 241)
-        Me.Controls.Add(Me.ComboSel)
+        Me.BackgroundImage = Global.estetica_aide.My.Resources.Resources._15139308_1298582353495753_749350956_n
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(871, 433)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.FechaN)
-        Me.Controls.Add(Me.btnAceptar)
+        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.ACEPTAR)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "REAGENDAR_CITA"
         Me.Text = "REAGENDAR CITA"
         Me.GroupBox1.ResumeLayout(False)
@@ -170,15 +162,13 @@ Partial Class REAGENDAR_CITA
     End Sub
 
     Friend WithEvents Label3 As Label
-    Friend WithEvents FechaN As DateTimePicker
-    Friend WithEvents btnAceptar As Button
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents ACEPTAR As Button
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TxtClave As TextBox
-    Friend WithEvents TxtNombre As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Fecha As DateTimePicker
-    Friend WithEvents BUSCAR As Button
-    Friend WithEvents ComboSel As ComboBox
+    Friend WithEvents DateTimePicker2 As DateTimePicker
 End Class

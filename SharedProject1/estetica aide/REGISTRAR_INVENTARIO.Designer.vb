@@ -42,27 +42,33 @@ Partial Class REGISTRAR_INVENTARIO
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(27, 57)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 17)
+        Me.Label1.Size = New System.Drawing.Size(170, 19)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Descripcion del producto"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(128, 97)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 17)
+        Me.Label2.Size = New System.Drawing.Size(68, 19)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Cantidad"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(103, 143)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(89, 17)
+        Me.Label3.Size = New System.Drawing.Size(91, 19)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Precio Venta"
         '
@@ -89,12 +95,14 @@ Partial Class REGISTRAR_INVENTARIO
         '
         'Guardar
         '
+        Me.Guardar.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Guardar.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guardar.Location = New System.Drawing.Point(51, 181)
         Me.Guardar.Name = "Guardar"
         Me.Guardar.Size = New System.Drawing.Size(75, 23)
         Me.Guardar.TabIndex = 6
         Me.Guardar.Text = "Guardar"
-        Me.Guardar.UseVisualStyleBackColor = True
+        Me.Guardar.UseVisualStyleBackColor = False
         '
         'DGV
         '
@@ -107,21 +115,26 @@ Partial Class REGISTRAR_INVENTARIO
         '
         'Eliminar
         '
+        Me.Eliminar.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Eliminar.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Eliminar.Location = New System.Drawing.Point(183, 181)
         Me.Eliminar.Name = "Eliminar"
         Me.Eliminar.Size = New System.Drawing.Size(75, 23)
         Me.Eliminar.TabIndex = 8
         Me.Eliminar.Text = "Eliminar"
-        Me.Eliminar.UseVisualStyleBackColor = True
+        Me.Eliminar.UseVisualStyleBackColor = False
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(488, 54)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 74)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Text = "Regresar"
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'NombreP
         '
@@ -133,9 +146,11 @@ Partial Class REGISTRAR_INVENTARIO
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(128, 25)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(65, 17)
+        Me.Label4.Size = New System.Drawing.Size(66, 19)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Producto"
         '
@@ -149,9 +164,11 @@ Partial Class REGISTRAR_INVENTARIO
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(203, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label5.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(320, 143)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(48, 17)
+        Me.Label5.Size = New System.Drawing.Size(49, 19)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Precio"
         '
@@ -159,6 +176,8 @@ Partial Class REGISTRAR_INVENTARIO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.estetica_aide.My.Resources.Resources._15139308_1298582353495753_749350956_n
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(617, 612)
         Me.Controls.Add(Me.PrecioC)
         Me.Controls.Add(Me.Label5)

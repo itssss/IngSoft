@@ -43,12 +43,14 @@ Partial Class Solicitar_Pedido
         '
         'Imprimir
         '
+        Me.Imprimir.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Imprimir.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Imprimir.Location = New System.Drawing.Point(70, 665)
         Me.Imprimir.Name = "Imprimir"
         Me.Imprimir.Size = New System.Drawing.Size(75, 23)
         Me.Imprimir.TabIndex = 1
         Me.Imprimir.Text = "Imprimir"
-        Me.Imprimir.UseVisualStyleBackColor = True
+        Me.Imprimir.UseVisualStyleBackColor = False
         '
         'PrintForm2
         '
@@ -63,17 +65,21 @@ Partial Class Solicitar_Pedido
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(513, 665)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Regresar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Solicitar_Pedido
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.estetica_aide.My.Resources.Resources._15139308_1298582353495753_749350956_n
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(782, 753)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Imprimir)
