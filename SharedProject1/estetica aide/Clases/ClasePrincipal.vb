@@ -74,6 +74,10 @@
                 strSql = "SELECT MAX(id_empleado) AS Columna FROM " & empleados & ";"
             Case clientes
                 strSql = "SELECT MAX(id_cliente) AS Columna FROM " & clientes & ";"
+            Case cita
+                strSql = "SELECT MAX(id_cita) AS Columna FROM " & cita & ";"
+            Case gastos = "SELECT MAX(id_cita) AS Columna FROM " & gastos & ";"
+
         End Select
         Try
             xDT = xCnx.objetoDataAdapter(strSql)
@@ -95,6 +99,9 @@
                 strSql = "SELECT id_empleado as Columna FROM " & empleados & " WHERE CONCAT( nombre, ' ', paterno, ' ', materno ) ='" & nombre & "';"
             Case clientes
                 strSql = "SELECT id_cliente as Columna FROM " & clientes & " WHERE nombre ='" & nombre & "';"
+            Case cita
+                Dim fechacita As Date = nombre
+                strSql = "SELECT id_cita as Columna FROM " & cita & " WHERE fechacita ='" & Format(fechaCita, "yyyy-MM-dd") & "';"
         End Select
         Try
             xDT = xCnx.objetoDataAdapter(strSql)
