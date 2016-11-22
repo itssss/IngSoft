@@ -25,17 +25,18 @@ Partial Class REGISTRAR_INVENTARIO
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Producto = New System.Windows.Forms.TextBox()
+        Me.DescP = New System.Windows.Forms.TextBox()
         Me.Cantidad = New System.Windows.Forms.TextBox()
-        Me.Precio = New System.Windows.Forms.TextBox()
+        Me.PrecioV = New System.Windows.Forms.TextBox()
         Me.Guardar = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.DESCRIPCION_DEL_PRODUCTO = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PRECIO_DE_COMPRA = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DGV = New System.Windows.Forms.DataGridView()
         Me.Eliminar = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.NombreP = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.PrecioC = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -59,18 +60,18 @@ Partial Class REGISTRAR_INVENTARIO
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(144, 143)
+        Me.Label3.Location = New System.Drawing.Point(103, 143)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(48, 17)
+        Me.Label3.Size = New System.Drawing.Size(89, 17)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Precio"
+        Me.Label3.Text = "Precio Venta"
         '
-        'Producto
+        'DescP
         '
-        Me.Producto.Location = New System.Drawing.Point(198, 54)
-        Me.Producto.Name = "Producto"
-        Me.Producto.Size = New System.Drawing.Size(100, 22)
-        Me.Producto.TabIndex = 3
+        Me.DescP.Location = New System.Drawing.Point(198, 54)
+        Me.DescP.Name = "DescP"
+        Me.DescP.Size = New System.Drawing.Size(100, 22)
+        Me.DescP.TabIndex = 3
         '
         'Cantidad
         '
@@ -79,12 +80,12 @@ Partial Class REGISTRAR_INVENTARIO
         Me.Cantidad.Size = New System.Drawing.Size(100, 22)
         Me.Cantidad.TabIndex = 4
         '
-        'Precio
+        'PrecioV
         '
-        Me.Precio.Location = New System.Drawing.Point(198, 143)
-        Me.Precio.Name = "Precio"
-        Me.Precio.Size = New System.Drawing.Size(100, 22)
-        Me.Precio.TabIndex = 5
+        Me.PrecioV.Location = New System.Drawing.Point(198, 143)
+        Me.PrecioV.Name = "PrecioV"
+        Me.PrecioV.Size = New System.Drawing.Size(100, 22)
+        Me.PrecioV.TabIndex = 5
         '
         'Guardar
         '
@@ -95,30 +96,14 @@ Partial Class REGISTRAR_INVENTARIO
         Me.Guardar.Text = "Guardar"
         Me.Guardar.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'DGV
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DESCRIPCION_DEL_PRODUCTO, Me.DataGridViewTextBoxColumn1, Me.PRECIO_DE_COMPRA})
-        Me.DataGridView1.Location = New System.Drawing.Point(81, 241)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(4)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(467, 335)
-        Me.DataGridView1.TabIndex = 7
-        '
-        'DESCRIPCION_DEL_PRODUCTO
-        '
-        Me.DESCRIPCION_DEL_PRODUCTO.HeaderText = "DESCRIPCION DEL PRODUCTO"
-        Me.DESCRIPCION_DEL_PRODUCTO.Name = "DESCRIPCION_DEL_PRODUCTO"
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "CANTIDAD"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        '
-        'PRECIO_DE_COMPRA
-        '
-        Me.PRECIO_DE_COMPRA.HeaderText = "PRECIO DE COMPRA"
-        Me.PRECIO_DE_COMPRA.Name = "PRECIO_DE_COMPRA"
+        Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGV.Location = New System.Drawing.Point(81, 241)
+        Me.DGV.Margin = New System.Windows.Forms.Padding(4)
+        Me.DGV.Name = "DGV"
+        Me.DGV.Size = New System.Drawing.Size(467, 335)
+        Me.DGV.TabIndex = 7
         '
         'Eliminar
         '
@@ -138,24 +123,60 @@ Partial Class REGISTRAR_INVENTARIO
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'NombreP
+        '
+        Me.NombreP.Location = New System.Drawing.Point(198, 20)
+        Me.NombreP.Name = "NombreP"
+        Me.NombreP.Size = New System.Drawing.Size(100, 22)
+        Me.NombreP.TabIndex = 11
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(128, 25)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(65, 17)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "Producto"
+        '
+        'PrecioC
+        '
+        Me.PrecioC.Location = New System.Drawing.Point(374, 143)
+        Me.PrecioC.Name = "PrecioC"
+        Me.PrecioC.Size = New System.Drawing.Size(100, 22)
+        Me.PrecioC.TabIndex = 13
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(320, 143)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(48, 17)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Precio"
+        '
         'REGISTRAR_INVENTARIO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(617, 612)
+        Me.Controls.Add(Me.PrecioC)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.NombreP)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Eliminar)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DGV)
         Me.Controls.Add(Me.Guardar)
-        Me.Controls.Add(Me.Precio)
+        Me.Controls.Add(Me.PrecioV)
         Me.Controls.Add(Me.Cantidad)
-        Me.Controls.Add(Me.Producto)
+        Me.Controls.Add(Me.DescP)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "REGISTRAR_INVENTARIO"
         Me.Text = "REGISTRAR_INVENTARIO"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGV, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -164,14 +185,15 @@ Partial Class REGISTRAR_INVENTARIO
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Producto As TextBox
+    Friend WithEvents DescP As TextBox
     Friend WithEvents Cantidad As TextBox
-    Friend WithEvents Precio As TextBox
+    Friend WithEvents PrecioV As TextBox
     Friend WithEvents Guardar As Button
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents DESCRIPCION_DEL_PRODUCTO As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents PRECIO_DE_COMPRA As DataGridViewTextBoxColumn
+    Friend WithEvents DGV As DataGridView
     Friend WithEvents Eliminar As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents NombreP As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents PrecioC As TextBox
+    Friend WithEvents Label5 As Label
 End Class

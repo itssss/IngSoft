@@ -1,29 +1,8 @@
 ﻿Imports MySql.Data.MySqlClient
 Public Class Solicitar_Pedido
-    Dim cnx As New MySqlConnection
-    Dim datos As DataSet
-    Dim adaptador As New MySqlDataAdapter
-    Dim conexion As conexion = New conexion()
     Private Sub Solicitar_Pedido_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Try
-
-            cnx.ConnectionString = "server=localhost; user=IngSoftUser; password=IngSoft; database=ingsoft"
-            cnx.Open()
-
-            Mostrardatos()
-
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        End Try
-
-    End Sub
-    Public Sub Mostrardatos()
-        conexion.Consulta("select * from Productos", "Productos")
-        DataGridView1.DataSource = conexion.ds.Tables("Productos")
-    End Sub
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-
+        Dim productos As New Producto()
+        productos.PoblarDataGrid(Dgv)
 
     End Sub
 
@@ -37,8 +16,15 @@ Public Class Solicitar_Pedido
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Hide()
+        Me.Close()
+
+    End Sub
+
+    Private Sub Solicitar_Pedido_Closed(sender As Object, e As EventArgs) Handles Me.Closed
         ACTUALIZAR_INVENTARIO.Show()
+    End Sub
+
+    Private Sub Dgv_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles Dgv.CellContentClick
 
     End Sub
 End Class

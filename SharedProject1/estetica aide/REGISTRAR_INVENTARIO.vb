@@ -1,50 +1,47 @@
 ﻿Public Class REGISTRAR_INVENTARIO
-    Dim cnx As conexion = New conexion()
-    Dim conexion As conexion = New conexion()
+
     Private Sub Guardar_Click(sender As Object, e As EventArgs) Handles Guardar.Click
-
-        Dim Guardar As String = "insert into Productos (descripcion, cantidad ,precioCompra) values (" + Producto.Text + ",'" + Cantidad.Text + "','" + Precio.Text + "´)"
-
-        If (cnx.Insertar(Guardar)) Then
-
-            MessageBox.Show("Datos agregados correctamente")
-            Mostrardatos()
-        Else
-            MessageBox.Show("Error al agregar")
-        End If
+        Dim producto As New Producto
+        producto.insertaProducto(NombreP.Text, DescP.Text, PrecioV.Text, PrecioC.Text, session.item(0), Cantidad.Text)
+        producto.PoblarDataGrid(DGV)
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-        Dim dgv As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
-        Producto.Text = dgv.cells(0).Value.ToString()
-        Cantidad.Text = dgv.cells(0).Value.ToString()
-        Precio.Text = dgv.Cells(0).Value.ToString()
-    End Sub
-    Public Sub Mostrardatos()
-        conexion.Consulta("select * from Productos", "Productos")
-        DataGridView1.DataSource = conexion.ds.Tables("Productos")
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV.CellContentClick
+        Dim dgv As DataGridViewRow = Me.DGV.Rows(e.RowIndex)
+        NombreP.Text = dgv.Cells(1).Value.ToString()
+        DescP.Text = dgv.Cells(2).Value.ToString()
+        Cantidad.Text = dgv.Cells(6).Value.ToString()
+        PrecioV.Text = dgv.Cells(7).Value.ToString()
+        PrecioC.Text = dgv.Cells(4).Value.ToString()
     End Sub
 
     Private Sub Eliminar_Click(sender As Object, e As EventArgs) Handles Eliminar.Click
+        Dim producto As New Producto(NombreP.Text)
+        producto.getIdProductos()
         If (MessageBox.Show("¿Desea eliminar el registro seleccionado?", "Elimición", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = System.Windows.Forms.DialogResult.Yes) Then
-            If (conexion.Eliminar("Productos", "nombre=" + Producto.Text)) Then
+            If (producto.elimina()) Then
                 MessageBox.Show("Datos eliminados correctamente")
-                Mostrardatos()
+                producto.PoblarDataGrid(DGV)
             Else
                 MessageBox.Show("Error al eliminar")
             End If
 
         End If
+        restablecer()
     End Sub
-
+    Sub restablecer()
+        NombreP.Text = ""
+        DescP.Text = ""
+        Cantidad.Text = ""
+        PrecioV.Text = ""
+        PrecioC.Text = ""
+    End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
         ACTUALIZAR_INVENTARIO.Show()
     End Sub
 
-    Private Sub Producto_TextChanged(sender As Object, e As EventArgs) Handles Producto.TextChanged
-
-    End Sub
 
     Private Sub Cantidad_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Cantidad.KeyPress
         If Char.IsNumber(e.KeyChar) Then
@@ -60,12 +57,12 @@
         End If
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
+    Private Sub REGISTRAR_INVENTARIO_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim producto As New Producto
+        producto.PoblarDataGrid(DGV)
     End Sub
 
-    Private Sub REGISTRAR_INVENTARIO_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-
+    Private Sub REGISTRAR_INVENTARIO_Closed(sender As Object, e As EventArgs) Handles Me.Closed
+        ACTUALIZAR_INVENTARIO.Show()
     End Sub
 End Class

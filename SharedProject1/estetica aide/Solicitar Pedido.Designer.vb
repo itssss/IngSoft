@@ -24,22 +24,22 @@ Partial Class Solicitar_Pedido
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Solicitar_Pedido))
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Dgv = New System.Windows.Forms.DataGridView()
         Me.Imprimir = New System.Windows.Forms.Button()
         Me.PrintForm2 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Dgv, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'Dgv
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 12)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(745, 625)
-        Me.DataGridView1.TabIndex = 0
+        Me.Dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Dgv.Location = New System.Drawing.Point(12, 12)
+        Me.Dgv.Name = "Dgv"
+        Me.Dgv.RowTemplate.Height = 24
+        Me.Dgv.Size = New System.Drawing.Size(745, 625)
+        Me.Dgv.TabIndex = 0
         '
         'Imprimir
         '
@@ -77,14 +77,14 @@ Partial Class Solicitar_Pedido
         Me.ClientSize = New System.Drawing.Size(782, 753)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Imprimir)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Dgv)
         Me.Name = "Solicitar_Pedido"
         Me.Text = "Solicitar Pedido"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Dgv, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Dgv As DataGridView
     Friend WithEvents Imprimir As Button
     Friend WithEvents PrintForm2 As PowerPacks.Printing.PrintForm
     Friend WithEvents Timer1 As Timer
