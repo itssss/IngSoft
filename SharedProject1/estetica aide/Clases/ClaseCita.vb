@@ -29,7 +29,7 @@
         Dim strSql As String
         Dim xCnx As New conexion
         Try
-            strSql = "UPDATE citas SET fechacita = '" & Format(fechaCita, "yyyy-MM-dd HH:mm:ss") & "',id_empleado = '" & id_empleado & "'WHERE id_cita = " & id & ";"
+            strSql = "UPDATE citas SET fechacita = '" & fechaCita & "',id_empleado = '" & id_empleado & "'WHERE id_cita = " & id & ";"
             xCnx.objetoCommand(strSql)
             MsgBox("Cita actualizada!")
         Catch
@@ -70,4 +70,18 @@
         cnx.Close()
         Return fecha
     End Function
+    Public Function consultaTodo() As Object
+        Dim strSQL As String
+        Dim xCnx As New conexion
+        strSQL = "SELECT * from citas where (fechacita >= " & Format(System.DateTime.Now, "yyyy-MM-dd") & ") order by id_cita asc "
+        consultaTodo = xCnx.objetoDataAdapter(strSQL)
+        cnx.Close()
+    End Function
+
+    Public Sub PoblarDataGrid(ByVal DGV As DataGridView)
+        DGV.DataSource = consultaTodo()
+        DGV.Refresh()
+        cnx.Close()
+
+    End Sub
 End Class
