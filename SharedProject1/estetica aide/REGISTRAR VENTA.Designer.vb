@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class REGISTRAR_VENTA
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,65 +20,53 @@ Partial Class REGISTRAR_VENTA
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(REGISTRAR_VENTA))
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.SERVICIO = New System.Windows.Forms.Label()
+        Me.ComboBoxRegistrarVentas = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Descripcion1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.BUSCAR = New System.Windows.Forms.Button()
-        Me.AÑADIR = New System.Windows.Forms.Button()
+        Me.MontoRegistrarVentas = New System.Windows.Forms.TextBox()
+        Me.TotalRegistrarVenta = New System.Windows.Forms.TextBox()
+        Me.Descripcion2 = New System.Windows.Forms.TextBox()
+        Me.CantidadRegistrarVenta = New System.Windows.Forms.TextBox()
+        Me.LupitaRegistrarVenta = New System.Windows.Forms.Button()
+        Me.BotonAñadir = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.DESCRIPCION = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CANTIDAD = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MONTO = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGirdRegistrarVenta = New System.Windows.Forms.DataGridView()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.ACEPTAR = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RecibidoRegistrarVenta = New System.Windows.Forms.TextBox()
+        Me.BotonAceptar = New System.Windows.Forms.Button()
+        CType(Me.DataGirdRegistrarVenta, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ComboBox1
+        'ComboBoxRegistrarVentas
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(12, 34)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(260, 21)
-        Me.ComboBox1.TabIndex = 0
-        '
-        'SERVICIO
-        '
-        Me.SERVICIO.AutoSize = True
-        Me.SERVICIO.Location = New System.Drawing.Point(42, 37)
-        Me.SERVICIO.Name = "SERVICIO"
-        Me.SERVICIO.Size = New System.Drawing.Size(57, 13)
-        Me.SERVICIO.TabIndex = 1
-        Me.SERVICIO.Text = "SERVICIO"
+        Me.ComboBoxRegistrarVentas.FormattingEnabled = True
+        Me.ComboBoxRegistrarVentas.Items.AddRange(New Object() {"Servicio cita", "Venta de productos", "Servicio express"})
+        Me.ComboBoxRegistrarVentas.Location = New System.Drawing.Point(105, 34)
+        Me.ComboBoxRegistrarVentas.Name = "ComboBoxRegistrarVentas"
+        Me.ComboBoxRegistrarVentas.Size = New System.Drawing.Size(324, 21)
+        Me.ComboBoxRegistrarVentas.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 87)
+        Me.Label1.Location = New System.Drawing.Point(19, 87)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(83, 13)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "DESCRIPCION "
         '
-        'TextBox1
+        'Descripcion1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(105, 84)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(324, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.Descripcion1.Location = New System.Drawing.Point(105, 84)
+        Me.Descripcion1.Name = "Descripcion1"
+        Me.Descripcion1.Size = New System.Drawing.Size(324, 20)
+        Me.Descripcion1.TabIndex = 3
         '
         'Label2
         '
@@ -89,57 +77,57 @@ Partial Class REGISTRAR_VENTA
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "MONTO    $"
         '
-        'TextBox2
+        'MontoRegistrarVentas
         '
-        Me.TextBox2.Location = New System.Drawing.Point(522, 84)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(112, 20)
-        Me.TextBox2.TabIndex = 6
+        Me.MontoRegistrarVentas.Location = New System.Drawing.Point(522, 84)
+        Me.MontoRegistrarVentas.Name = "MontoRegistrarVentas"
+        Me.MontoRegistrarVentas.Size = New System.Drawing.Size(112, 20)
+        Me.MontoRegistrarVentas.TabIndex = 6
         '
-        'TextBox3
+        'TotalRegistrarVenta
         '
-        Me.TextBox3.Location = New System.Drawing.Point(171, 297)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 7
+        Me.TotalRegistrarVenta.Location = New System.Drawing.Point(171, 297)
+        Me.TotalRegistrarVenta.Name = "TotalRegistrarVenta"
+        Me.TotalRegistrarVenta.Size = New System.Drawing.Size(100, 20)
+        Me.TotalRegistrarVenta.TabIndex = 7
         '
-        'TextBox4
+        'Descripcion2
         '
-        Me.TextBox4.Location = New System.Drawing.Point(105, 157)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(233, 20)
-        Me.TextBox4.TabIndex = 8
+        Me.Descripcion2.Location = New System.Drawing.Point(105, 157)
+        Me.Descripcion2.Name = "Descripcion2"
+        Me.Descripcion2.Size = New System.Drawing.Size(233, 20)
+        Me.Descripcion2.TabIndex = 8
         '
-        'TextBox5
+        'CantidadRegistrarVenta
         '
-        Me.TextBox5.Location = New System.Drawing.Point(454, 158)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(62, 20)
-        Me.TextBox5.TabIndex = 9
+        Me.CantidadRegistrarVenta.Location = New System.Drawing.Point(454, 158)
+        Me.CantidadRegistrarVenta.Name = "CantidadRegistrarVenta"
+        Me.CantidadRegistrarVenta.Size = New System.Drawing.Size(62, 20)
+        Me.CantidadRegistrarVenta.TabIndex = 9
         '
-        'BUSCAR
+        'LupitaRegistrarVenta
         '
-        Me.BUSCAR.BackgroundImage = CType(resources.GetObject("BUSCAR.BackgroundImage"), System.Drawing.Image)
-        Me.BUSCAR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BUSCAR.Location = New System.Drawing.Point(344, 154)
-        Me.BUSCAR.Name = "BUSCAR"
-        Me.BUSCAR.Size = New System.Drawing.Size(44, 23)
-        Me.BUSCAR.TabIndex = 10
-        Me.BUSCAR.UseVisualStyleBackColor = True
+        Me.LupitaRegistrarVenta.BackgroundImage = CType(resources.GetObject("LupitaRegistrarVenta.BackgroundImage"), System.Drawing.Image)
+        Me.LupitaRegistrarVenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.LupitaRegistrarVenta.Location = New System.Drawing.Point(344, 154)
+        Me.LupitaRegistrarVenta.Name = "LupitaRegistrarVenta"
+        Me.LupitaRegistrarVenta.Size = New System.Drawing.Size(44, 23)
+        Me.LupitaRegistrarVenta.TabIndex = 10
+        Me.LupitaRegistrarVenta.UseVisualStyleBackColor = True
         '
-        'AÑADIR
+        'BotonAñadir
         '
-        Me.AÑADIR.Location = New System.Drawing.Point(546, 154)
-        Me.AÑADIR.Name = "AÑADIR"
-        Me.AÑADIR.Size = New System.Drawing.Size(75, 23)
-        Me.AÑADIR.TabIndex = 11
-        Me.AÑADIR.Text = "AÑADIR"
-        Me.AÑADIR.UseVisualStyleBackColor = True
+        Me.BotonAñadir.Location = New System.Drawing.Point(546, 154)
+        Me.BotonAñadir.Name = "BotonAñadir"
+        Me.BotonAñadir.Size = New System.Drawing.Size(75, 23)
+        Me.BotonAñadir.TabIndex = 11
+        Me.BotonAñadir.Text = "AÑADIR"
+        Me.BotonAñadir.UseVisualStyleBackColor = True
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(102, 132)
+        Me.Label3.Location = New System.Drawing.Point(22, 159)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(80, 13)
         Me.Label3.TabIndex = 12
@@ -148,35 +136,19 @@ Partial Class REGISTRAR_VENTA
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(454, 132)
+        Me.Label4.Location = New System.Drawing.Point(451, 142)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(62, 13)
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "CANTIDAD"
         '
-        'DataGridView1
+        'DataGirdRegistrarVenta
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DESCRIPCION, Me.CANTIDAD, Me.MONTO})
-        Me.DataGridView1.Location = New System.Drawing.Point(105, 205)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(344, 46)
-        Me.DataGridView1.TabIndex = 14
-        '
-        'DESCRIPCION
-        '
-        Me.DESCRIPCION.HeaderText = "DESCRIPCION"
-        Me.DESCRIPCION.Name = "DESCRIPCION"
-        '
-        'CANTIDAD
-        '
-        Me.CANTIDAD.HeaderText = "CANTIDAD"
-        Me.CANTIDAD.Name = "CANTIDAD"
-        '
-        'MONTO
-        '
-        Me.MONTO.HeaderText = "MONTO"
-        Me.MONTO.Name = "MONTO"
+        Me.DataGirdRegistrarVenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGirdRegistrarVenta.Location = New System.Drawing.Point(12, 197)
+        Me.DataGirdRegistrarVenta.Name = "DataGirdRegistrarVenta"
+        Me.DataGirdRegistrarVenta.Size = New System.Drawing.Size(629, 72)
+        Me.DataGirdRegistrarVenta.TabIndex = 14
         '
         'Label5
         '
@@ -196,72 +168,67 @@ Partial Class REGISTRAR_VENTA
         Me.Label6.TabIndex = 16
         Me.Label6.Text = "RECIBIDO     $"
         '
-        'TextBox6
+        'RecibidoRegistrarVenta
         '
-        Me.TextBox6.Location = New System.Drawing.Point(394, 300)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(88, 20)
-        Me.TextBox6.TabIndex = 17
+        Me.RecibidoRegistrarVenta.Location = New System.Drawing.Point(394, 300)
+        Me.RecibidoRegistrarVenta.Name = "RecibidoRegistrarVenta"
+        Me.RecibidoRegistrarVenta.Size = New System.Drawing.Size(88, 20)
+        Me.RecibidoRegistrarVenta.TabIndex = 17
         '
-        'ACEPTAR
+        'BotonAceptar
         '
-        Me.ACEPTAR.Location = New System.Drawing.Point(522, 298)
-        Me.ACEPTAR.Name = "ACEPTAR"
-        Me.ACEPTAR.Size = New System.Drawing.Size(84, 23)
-        Me.ACEPTAR.TabIndex = 18
-        Me.ACEPTAR.Text = "ACEPTAR"
-        Me.ACEPTAR.UseVisualStyleBackColor = True
+        Me.BotonAceptar.Location = New System.Drawing.Point(499, 297)
+        Me.BotonAceptar.Name = "BotonAceptar"
+        Me.BotonAceptar.Size = New System.Drawing.Size(84, 23)
+        Me.BotonAceptar.TabIndex = 18
+        Me.BotonAceptar.Text = "ACEPTAR"
+        Me.BotonAceptar.UseVisualStyleBackColor = True
         '
         'REGISTRAR_VENTA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(673, 322)
-        Me.Controls.Add(Me.ACEPTAR)
-        Me.Controls.Add(Me.TextBox6)
+        Me.ClientSize = New System.Drawing.Size(653, 362)
+        Me.Controls.Add(Me.BotonAceptar)
+        Me.Controls.Add(Me.RecibidoRegistrarVenta)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.DataGirdRegistrarVenta)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.AÑADIR)
-        Me.Controls.Add(Me.BUSCAR)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.BotonAñadir)
+        Me.Controls.Add(Me.LupitaRegistrarVenta)
+        Me.Controls.Add(Me.CantidadRegistrarVenta)
+        Me.Controls.Add(Me.Descripcion2)
+        Me.Controls.Add(Me.TotalRegistrarVenta)
+        Me.Controls.Add(Me.MontoRegistrarVentas)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Descripcion1)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.SERVICIO)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.ComboBoxRegistrarVentas)
         Me.Name = "REGISTRAR_VENTA"
         Me.Text = "REGISTRAR VENTA"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGirdRegistrarVenta, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents SERVICIO As Label
+    Friend WithEvents ComboBoxRegistrarVentas As ComboBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Descripcion1 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents BUSCAR As Button
-    Friend WithEvents AÑADIR As Button
+    Friend WithEvents MontoRegistrarVentas As TextBox
+    Friend WithEvents TotalRegistrarVenta As TextBox
+    Friend WithEvents Descripcion2 As TextBox
+    Friend WithEvents CantidadRegistrarVenta As TextBox
+    Friend WithEvents LupitaRegistrarVenta As Button
+    Friend WithEvents BotonAñadir As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents DESCRIPCION As DataGridViewTextBoxColumn
-    Friend WithEvents CANTIDAD As DataGridViewTextBoxColumn
-    Friend WithEvents MONTO As DataGridViewTextBoxColumn
+    Friend WithEvents DataGirdRegistrarVenta As DataGridView
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents ACEPTAR As Button
+    Friend WithEvents RecibidoRegistrarVenta As TextBox
+    Friend WithEvents BotonAceptar As Button
 End Class
