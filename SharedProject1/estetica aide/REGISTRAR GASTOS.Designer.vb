@@ -22,35 +22,35 @@ Partial Class REGISTRAR_GASTOS
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.desc = New System.Windows.Forms.TextBox()
+        Me.monto = New System.Windows.Forms.TextBox()
+        Me.Btnacep = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'TextBox1
+        'desc
         '
-        Me.TextBox1.Location = New System.Drawing.Point(134, 53)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(269, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.desc.Location = New System.Drawing.Point(134, 53)
+        Me.desc.Name = "desc"
+        Me.desc.Size = New System.Drawing.Size(269, 20)
+        Me.desc.TabIndex = 0
         '
-        'TextBox2
+        'monto
         '
-        Me.TextBox2.Location = New System.Drawing.Point(134, 96)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(86, 20)
-        Me.TextBox2.TabIndex = 1
+        Me.monto.Location = New System.Drawing.Point(134, 96)
+        Me.monto.Name = "monto"
+        Me.monto.Size = New System.Drawing.Size(86, 20)
+        Me.monto.TabIndex = 1
         '
-        'Button1
+        'Btnacep
         '
-        Me.Button1.Location = New System.Drawing.Point(279, 140)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "ACEPTAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Btnacep.Location = New System.Drawing.Point(279, 140)
+        Me.Btnacep.Name = "Btnacep"
+        Me.Btnacep.Size = New System.Drawing.Size(75, 23)
+        Me.Btnacep.TabIndex = 2
+        Me.Btnacep.Text = "ACEPTAR"
+        Me.Btnacep.UseVisualStyleBackColor = True
         '
         'Label1
         '
@@ -77,9 +77,9 @@ Partial Class REGISTRAR_GASTOS
         Me.ClientSize = New System.Drawing.Size(410, 196)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Btnacep)
+        Me.Controls.Add(Me.monto)
+        Me.Controls.Add(Me.desc)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "REGISTRAR_GASTOS"
@@ -89,9 +89,9 @@ Partial Class REGISTRAR_GASTOS
 
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents desc As TextBox
+    Friend WithEvents monto As TextBox
+    Friend WithEvents Btnacep As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
 End Class

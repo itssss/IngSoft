@@ -6,4 +6,10 @@
     Private Sub REGISTRAR_GASTOS_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Btnacep.Click
+        Dim g As New ClaseGastos()
+        g.insertaGasto(desc.Text, monto.Text, session.item(0))
+
+    End Sub
 End Class
