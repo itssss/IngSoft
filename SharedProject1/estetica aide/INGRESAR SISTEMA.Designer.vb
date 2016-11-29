@@ -34,6 +34,7 @@ Partial Class INGRESAR_SISTEMA
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(143, 43)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
@@ -46,20 +47,24 @@ Partial Class INGRESAR_SISTEMA
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(16, 181)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 17)
+        Me.Label1.Size = New System.Drawing.Size(78, 19)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "USUARIO"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(16, 230)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(103, 17)
+        Me.Label2.Size = New System.Drawing.Size(113, 19)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "CONTRASEÑA"
         '
@@ -82,18 +87,22 @@ Partial Class INGRESAR_SISTEMA
         '
         'ACEPTAR
         '
+        Me.ACEPTAR.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(132, Byte), Integer))
+        Me.ACEPTAR.Font = New System.Drawing.Font("Palatino Linotype", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ACEPTAR.Location = New System.Drawing.Point(228, 276)
         Me.ACEPTAR.Margin = New System.Windows.Forms.Padding(4)
         Me.ACEPTAR.Name = "ACEPTAR"
         Me.ACEPTAR.Size = New System.Drawing.Size(135, 31)
         Me.ACEPTAR.TabIndex = 5
         Me.ACEPTAR.Text = "ACEPTAR"
-        Me.ACEPTAR.UseVisualStyleBackColor = True
+        Me.ACEPTAR.UseVisualStyleBackColor = False
         '
         'INGRESAR_SISTEMA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.estetica_aide.My.Resources.Resources._15139308_1298582353495753_749350956_n
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(379, 321)
         Me.Controls.Add(Me.ACEPTAR)
         Me.Controls.Add(Me.txtcontra)

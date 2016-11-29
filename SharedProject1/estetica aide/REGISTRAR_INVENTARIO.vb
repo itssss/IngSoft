@@ -63,6 +63,6 @@
     End Sub
 
     Private Sub REGISTRAR_INVENTARIO_Closed(sender As Object, e As EventArgs) Handles Me.Closed
-        ACTUALIZAR_INVENTARIO.Show()
+
     End Sub
 End Class

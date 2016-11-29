@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Corte
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Corte
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Detallado = New System.Windows.Forms.Button()
@@ -43,7 +43,7 @@ Partial Class Corte
         Me.Detallado.Size = New System.Drawing.Size(217, 103)
         Me.Detallado.TabIndex = 3
         Me.Detallado.Text = "Corte de caja detallado"
-        Me.Detallado.UseVisualStyleBackColor = True
+        Me.Detallado.UseVisualStyleBackColor = False
         '
         'Resumido
         '
@@ -52,11 +52,11 @@ Partial Class Corte
         Me.Resumido.Size = New System.Drawing.Size(217, 103)
         Me.Resumido.TabIndex = 4
         Me.Resumido.Text = "Corte de caja resumido"
-        Me.Resumido.UseVisualStyleBackColor = True
+        Me.Resumido.UseVisualStyleBackColor = False
         '
         'Corte
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(541, 276)
         Me.Controls.Add(Me.Button1)
