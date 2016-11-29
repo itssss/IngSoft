@@ -33,11 +33,6 @@
             Dim fechain As Date = FechaInicio.Text
             Dim fechafi As Date = FechaFin.Text
             gasto.PoblarDataGridConFecha(DGV, Format(fechain, "yyyy-MM-dd") & " 00:00:00", Format(fechafi, "yyyy-MM-dd") & " 23:59:59")
-        ElseIf ComboSel.Text = "Clientes" Then
-            Dim Cliente As New ClaseCliente
-            Dim fechain As Date = FechaInicio.Text
-            Dim fechafi As Date = FechaFin.Text
-            Cliente.PoblarDataGridConFecha(DGV, Format(fechain, "yyyy-MM-dd") & " 00:00:00", Format(fechafi, "yyyy-MM-dd") & " 23:59:59")
         End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles BtnGuardar.Click

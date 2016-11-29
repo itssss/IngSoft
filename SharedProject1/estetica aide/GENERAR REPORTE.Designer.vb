@@ -76,7 +76,7 @@ Partial Class GENERAR_REPORTE
         'ComboSel
         '
         Me.ComboSel.FormattingEnabled = True
-        Me.ComboSel.Items.AddRange(New Object() {"Productos", "Clientes", "Ventas", "Gastos", "Citas"})
+        Me.ComboSel.Items.AddRange(New Object() {"Productos", "Ventas", "Gastos", "Citas"})
         Me.ComboSel.Location = New System.Drawing.Point(522, 34)
         Me.ComboSel.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboSel.Name = "ComboSel"
@@ -110,6 +110,9 @@ Partial Class GENERAR_REPORTE
         Me.BtnBuscar.TabIndex = 8
         Me.BtnBuscar.Text = "Buscar"
         Me.BtnBuscar.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
         '
         'PrintForm1
         '
