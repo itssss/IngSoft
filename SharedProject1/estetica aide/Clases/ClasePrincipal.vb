@@ -76,7 +76,13 @@
                 strSql = "SELECT MAX(id_cliente) AS Columna FROM " & clientes & ";"
             Case cita
                 strSql = "SELECT MAX(id_cita) AS Columna FROM " & cita & ";"
-            Case gastos = "SELECT MAX(id_cita) AS Columna FROM " & gastos & ";"
+            Case gastos
+                strSql = "SELECT MAX(id_cita) AS Columna FROM " & gastos & ";"
+            Case productos
+                strSql = "SELECT MAX(id_producto) AS Columna FROM " & productos & ";"
+            Case ventas
+                strSql = "SELECT MAX(id_venta) AS Columna FROM " & ventas & ";"
+
 
         End Select
         Try
@@ -102,6 +108,8 @@
             Case cita
                 Dim fechacita As Date = nombre
                 strSql = "SELECT id_cita as Columna FROM " & cita & " WHERE fechacita ='" & Format(fechaCita, "yyyy-MM-dd") & "';"
+            Case productos
+                strSql = "SELECT id_producto as Columna FROM " & productos & " WHERE nombre ='" & nombre & "';"
         End Select
         Try
             xDT = xCnx.objetoDataAdapter(strSql)

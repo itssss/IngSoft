@@ -37,6 +37,6 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Me.Hide()
-        GENERAR_REPORTE.Show()
+        Corte.Show()
     End Sub
 End Class

@@ -22,110 +22,133 @@ Partial Class GENERAR_REPORTE
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GENERAR_REPORTE))
+        Me.FechaInicio = New System.Windows.Forms.DateTimePicker()
+        Me.FechaFin = New System.Windows.Forms.DateTimePicker()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ComboSel = New System.Windows.Forms.ComboBox()
+        Me.BtnGuardar = New System.Windows.Forms.Button()
+        Me.DGV = New System.Windows.Forms.DataGridView()
+        Me.BtnBuscar = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
+        CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DateTimePicker1
+        'FechaInicio
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(99, 26)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 0
+        Me.FechaInicio.Location = New System.Drawing.Point(132, 32)
+        Me.FechaInicio.Margin = New System.Windows.Forms.Padding(4)
+        Me.FechaInicio.Name = "FechaInicio"
+        Me.FechaInicio.Size = New System.Drawing.Size(265, 22)
+        Me.FechaInicio.TabIndex = 0
         '
-        'DateTimePicker2
+        'FechaFin
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(99, 78)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker2.TabIndex = 1
+        Me.FechaFin.Location = New System.Drawing.Point(132, 96)
+        Me.FechaFin.Margin = New System.Windows.Forms.Padding(4)
+        Me.FechaFin.Name = "FechaFin"
+        Me.FechaFin.Size = New System.Drawing.Size(265, 22)
+        Me.FechaFin.TabIndex = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 26)
+        Me.Label1.Location = New System.Drawing.Point(16, 32)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(77, 13)
+        Me.Label1.Size = New System.Drawing.Size(96, 17)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "FECHA INICIO"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 78)
+        Me.Label2.Location = New System.Drawing.Point(16, 96)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(75, 13)
+        Me.Label2.Size = New System.Drawing.Size(95, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "FECHA FINAL"
         '
-        'ComboBox1
+        'ComboSel
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(405, 36)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(126, 21)
-        Me.ComboBox1.TabIndex = 4
+        Me.ComboSel.FormattingEnabled = True
+        Me.ComboSel.Items.AddRange(New Object() {"Productos", "Clientes", "Ventas", "Gastos", "Citas"})
+        Me.ComboSel.Location = New System.Drawing.Point(522, 34)
+        Me.ComboSel.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboSel.Name = "ComboSel"
+        Me.ComboSel.Size = New System.Drawing.Size(167, 24)
+        Me.ComboSel.TabIndex = 4
         '
-        'Label3
+        'BtnGuardar
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(413, 39)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(82, 13)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "INFORMACION"
+        Me.BtnGuardar.Location = New System.Drawing.Point(577, 356)
+        Me.BtnGuardar.Margin = New System.Windows.Forms.Padding(4)
+        Me.BtnGuardar.Name = "BtnGuardar"
+        Me.BtnGuardar.Size = New System.Drawing.Size(131, 28)
+        Me.BtnGuardar.TabIndex = 6
+        Me.BtnGuardar.Text = "GUARDAR PDF"
+        Me.BtnGuardar.UseVisualStyleBackColor = True
         '
-        'Button1
+        'DGV
         '
-        Me.Button1.Location = New System.Drawing.Point(433, 289)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(98, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "GUARDAR PDF"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGV.Location = New System.Drawing.Point(44, 146)
+        Me.DGV.Margin = New System.Windows.Forms.Padding(4)
+        Me.DGV.Name = "DGV"
+        Me.DGV.Size = New System.Drawing.Size(645, 188)
+        Me.DGV.TabIndex = 7
         '
-        'DataGridView1
+        'BtnBuscar
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(33, 119)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(484, 153)
-        Me.DataGridView1.TabIndex = 7
+        Me.BtnBuscar.Location = New System.Drawing.Point(614, 93)
+        Me.BtnBuscar.Name = "BtnBuscar"
+        Me.BtnBuscar.Size = New System.Drawing.Size(75, 23)
+        Me.BtnBuscar.TabIndex = 8
+        Me.BtnBuscar.Text = "Buscar"
+        Me.BtnBuscar.UseVisualStyleBackColor = True
+        '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
         '
         'GENERAR_REPORTE
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(551, 324)
-        Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.ClientSize = New System.Drawing.Size(735, 399)
+        Me.Controls.Add(Me.BtnBuscar)
+        Me.Controls.Add(Me.DGV)
+        Me.Controls.Add(Me.BtnGuardar)
+        Me.Controls.Add(Me.ComboSel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DateTimePicker2)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.Controls.Add(Me.FechaFin)
+        Me.Controls.Add(Me.FechaInicio)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "GENERAR_REPORTE"
         Me.Text = "GENERAR_REPORTE"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGV, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents FechaInicio As DateTimePicker
+    Friend WithEvents FechaFin As DateTimePicker
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ComboSel As ComboBox
+    Friend WithEvents BtnGuardar As Button
+    Friend WithEvents DGV As DataGridView
+    Friend WithEvents BtnBuscar As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
 End Class

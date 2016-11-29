@@ -92,21 +92,25 @@
     <Compile Include="AGENDAR CITA.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Clases\ClaseCita.vb" />
     <Compile Include="Clases\ClaseCliente.vb" />
     <Compile Include="Clases\ClaseEmpleado.vb" />
+    <Compile Include="Clases\ClaseGastos.vb" />
     <Compile Include="Clases\ClasePrincipal.vb" />
+    <Compile Include="Clases\ClaseVentas.vb" />
     <Compile Include="Clases\Conexion.vb" />
     <Compile Include="Clases\Globales.vb" />
-    <Compile Include="Corte de caja.Designer.vb">
-      <DependentUpon>Corte de caja.vb</DependentUpon>
+    <Compile Include="Clases\Producto.vb" />
+    <Compile Include="Corte.Designer.vb">
+      <DependentUpon>Corte.vb</DependentUpon>
     </Compile>
-    <Compile Include="Corte de caja.vb">
+    <Compile Include="Corte.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Detallado.Designer.vb">
-      <DependentUpon>Detallado.vb</DependentUpon>
+    <Compile Include="detallad.Designer.vb">
+      <DependentUpon>detallad.vb</DependentUpon>
     </Compile>
-    <Compile Include="Detallado.vb">
+    <Compile Include="detallad.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GENERAR REPORTE.Designer.vb">
@@ -172,10 +176,10 @@
     <Compile Include="REGISTRAR_INVENTARIO.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resumido.Designer.vb">
-      <DependentUpon>Resumido.vb</DependentUpon>
+    <Compile Include="resumid.Designer.vb">
+      <DependentUpon>resumid.vb</DependentUpon>
     </Compile>
-    <Compile Include="Resumido.vb">
+    <Compile Include="resumid.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Solicitar Pedido.Designer.vb">
@@ -195,11 +199,11 @@
     <EmbeddedResource Include="AGENDAR CITA.resx">
       <DependentUpon>AGENDAR CITA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Corte de caja.resx">
-      <DependentUpon>Corte de caja.vb</DependentUpon>
+    <EmbeddedResource Include="Corte.resx">
+      <DependentUpon>Corte.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Detallado.resx">
-      <DependentUpon>Detallado.vb</DependentUpon>
+    <EmbeddedResource Include="detallad.resx">
+      <DependentUpon>detallad.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GENERAR REPORTE.resx">
       <DependentUpon>GENERAR REPORTE.vb</DependentUpon>
@@ -231,8 +235,8 @@
     <EmbeddedResource Include="REGISTRAR_INVENTARIO.resx">
       <DependentUpon>REGISTRAR_INVENTARIO.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resumido.resx">
-      <DependentUpon>Resumido.vb</DependentUpon>
+    <EmbeddedResource Include="resumid.resx">
+      <DependentUpon>resumid.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Solicitar Pedido.resx">
       <DependentUpon>Solicitar Pedido.vb</DependentUpon>

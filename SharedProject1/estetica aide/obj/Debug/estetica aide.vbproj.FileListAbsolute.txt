@@ -53,3 +53,32 @@ G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\bin\Debug\este
 G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
 G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
 G:\IngSoft-master (1)\IngSoft-master\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.exe.config
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.exe
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.xml
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.pdb
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.exe
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.pdb
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\estetica aide.xml
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\MySql.Data.dll
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\MySql.Data.xml
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_CLIENTE.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.ACTUALIZAR_INVENTARIO.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.AGENDAR_CITA.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.GENERAR_REPORTE.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.INGRESAR_SISTEMA.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.MENU_PRINCIPAL.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.Resources.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.NUEVA_CITA.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REAGENDAR_CITA.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_GASTOS.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_VENTA.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.REGISTRAR_INVENTARIO.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.Solicitar_Pedido.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.vbproj.GenerateResource.Cache
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica aide.vbprojResolveAssemblyReference.cache
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.Corte.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.detallad.resources
+C:\Ing_soft\IngSoft\SharedProject1\estetica aide\obj\Debug\estetica_aide.resumid.resources
